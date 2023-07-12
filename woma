@@ -1,5 +1,11 @@
 this is the second version of the application release
 adding data to work with stash
+<<<<<<< HEAD
 testing mulitple stashi
 
 adding data to main for rebase
+=======
+testing mulitple stash
+adding data to create a commit for feature
+
+>>>>>>> a96fc83 (added data for a commit)
