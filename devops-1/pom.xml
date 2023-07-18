@@ -33,7 +33,18 @@
 
     <build>
         <finalName>basic-webapp</finalName>
-        <plugins>
+	<plugins>
+		<plugin>
+	  <groupId>org.apache.tomcat.maven</groupId>
+          <artifactId>tomcat7-maven-plugin</artifactId>
+	  <version>2.2</version>
+	  <configuration>
+		  <url>http://localhost:2525/manager/text</url>
+		  <username>admin</username>
+		  <password>password</password>
+           </configuration>
+
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
