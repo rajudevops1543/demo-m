@@ -4,3 +4,4 @@ adding data to create another stash
 adding data to for rebase
 
 triggering when condition in pipeline
+same trigger
