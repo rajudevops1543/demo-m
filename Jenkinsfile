@@ -1,6 +1,6 @@
 pipeline {
     agent any 
-    trigeers {
+    triggers {
     }
     stages {
         stage('github-checkout') { 
